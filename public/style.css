@@ -1,0 +1,393 @@
+/* Initial */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+body{
+    background-color: #f6f4e6;
+}
+
+/* Header */
+.signin{
+    float:right;
+    margin-top: 2.5%;
+    font-weight: bold;
+    
+}
+.signin-content{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.signin-content a{
+    color: #000;
+    text-decoration: none;
+}
+.arrow-up{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #fff;
+    display:none;
+}
+.arrow-up2{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #fff;
+    margin-left:7%;
+    display: none;
+    
+}
+.login-form{
+    position: absolute;
+    width:300px;
+    height:auto;
+    margin-top: -1%;
+    margin-right: 3%;
+    background: #fff;
+    right:0;
+    z-index: 5;
+    border-radius: 10px;
+    border-bottom: 5px solid grey;
+    display: none;
+}
+.register-form{
+    position: absolute;
+    width:300px;
+    height:auto;
+    margin-top: -1%;
+    margin-right: 0%;
+    background: #fff;
+    right:0;
+    z-index: 5;
+    border-radius: 10px;
+    border-bottom: 5px solid grey;
+    display: none;
+}
+.form-content{
+    width:250px;
+    margin: 25px auto;
+    color: black;
+    letter-spacing: -0.05em;
+    font-size: 16px;
+    text-align: center;
+}
+.form-content2{
+    width:250px;
+    margin: 25px auto;
+    color: black;
+    letter-spacing: -0.05em;
+    font-size: 16px;
+    text-align: center;
+}
+
+.textandpassword{
+    width: 240px;
+    height: 30px;
+    border: 0px;
+    outline: none;
+    box-shadow: inset 0 0 8px #eee;
+    border-radius: 10px; 
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+/* input[type="text"],
+input[type="password"]{
+    width: 240px;
+    height: 30px;
+    border: 0px;
+    outline: none;
+    box-shadow: inset 0 0 8px #eee;
+    border-radius: 10px; 
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+} */
+
+.signin-upsubmit{
+    width:95%;
+    height:35px;
+    background: #f5ba13;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+    border-radius: 10px;
+    letter-spacing: -0.05em;
+    cursor: pointer;
+}
+.signin-upsubmit:hover{
+    background: #41444b;
+}
+
+/* input[type="submit"]{
+    width:95%;
+    height:35px;
+    background: #f5ba13;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+    border-radius: 10px;
+    letter-spacing: -0.05em;
+    cursor: pointer;
+} */
+
+/* input[type="submit"]:hover{
+    background: #41444b;
+} */
+
+
+
+header {
+    position: relative;
+    background-color: #f5ba13;
+    margin: auto;
+    padding:  5px 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.NavigationBar{
+    background-color: #41444b;
+    height: 100%;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.NavigationBar li {
+    list-style-type: none;
+    color: #f6f4e6;
+    float: left;
+    padding: 10px 0  10px 40px;
+    font-size: 20px;
+}
+
+.searchBox{
+    border-radius: 10px;
+    width:20rem;
+    height:26px;
+    outline: none;
+    border: none;
+    padding: 2px;
+    position: relative;
+
+}
+
+.searchButton{
+    border: none;
+    outline: none;
+}
+
+.searchButton i {
+    position: absolute;
+    font-size: 20px;
+    right: 3%;
+    margin-top: -14px;
+}
+
+.logoImage{
+    width:10%;
+    
+}
+
+/* BannerView */
+.Banner{
+background-color: #52575d;
+margin: 5% 10%;
+position: relative;
+text-align: center;
+}
+
+.Banner h1{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 23%;
+    font-size: 40px;
+}
+
+.Banner p{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 23%;
+    font-size: 24px;
+}
+.Banner img{
+    height:400px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left:60%;
+    width: 36%;
+}
+
+.ButtonBannerContainer{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 45%;
+}
+
+.ButtonStyle{
+    background-color: #fddb3a;
+    font-size:20px;
+    text-align: center;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 180px;
+    height: 50px;
+}
+
+.ButtonStyle:hover{
+    background-color: #fad11b;
+} 
+
+/*BannerTwo*/
+.BannerTwoContainer{
+    background-color: #52575d;
+    text-align: center;
+    padding: 1% 0%;
+}
+
+.squareHR{
+    border: none;
+    width: 5%;
+    height: 1.5%;
+    background: #fad11b;
+    margin: auto;
+}
+
+.icon{
+    margin-top: 5%;
+    padding-right: 5%;
+    width:200px;
+    margin-bottom: 1%;
+}
+
+.BannerTwoContainer h1{
+    color:#fad11b;
+}
+
+.banner-two-idiom{
+    font-size: 50px;
+}
+
+/*ListItemInMain*/
+
+.EachItemContainer{
+    width :300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 0.8rem;
+}
+
+.EachItemContainer img{
+    width: 100%;
+}
+
+
+
+/*Slider*/
+.slider{
+    position: relative;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageSlide{
+    border-radius: 10px;
+    /* width:20%c */
+}
+
+.right-arrow{
+    float: right;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: #fad11b;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrow{
+    float: left;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color:#fad11b;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.slide{
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slide.active{
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}
+
+.fl{
+    float: left;
+}
+.fr{
+    float:right;
+}
+.clearfix {
+    overflow: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+.cardbody{
+    text-align: center;
+}
+.Caro {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.rec.rec-arrow{
+    background-color:#41444b;
+    color: #f5ba13;
+    border-radius: 0;
+}
+
+.rec.rec-arrow:disabled{
+    color:#41444b;
+    background-color: #f5ba13;
+}
+.rec.rec-arrow:hover{
+    color:#41444b;
+    background-color: #f5ba13;
+}
+
+.rec-carousel-item:focus {
+  outline: none;
+  box-shadow: inset 0 0 1px 0px #000;
+}
+
+
+/*Footer*/
+footer{
+    background-color: #41444b;
+    color: #fad11b;
+    text-align: center;
+}
+
+.rec.rec-arrow:disabled {
+    visibility: hidden;
+}
